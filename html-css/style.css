@@ -34,7 +34,8 @@ input{
     width: 80%;
     border-radius: 12px;
     border: 1px solid black;
-    outline: none;
+    outline: 4px solid transparent;
+    transition: 0.3s;
 }
 
 input::placeholder{
@@ -42,7 +43,7 @@ input::placeholder{
 }
 
 input:focus{
-    border: 2px solid black;
+    outline: 4px solid rgba(0, 0, 0, 0.233);
 }
 
 form button{
