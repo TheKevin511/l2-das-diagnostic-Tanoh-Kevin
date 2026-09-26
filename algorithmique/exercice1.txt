@@ -1,0 +1,16 @@
+ALGORITME parite
+Var
+nbre : entier
+
+DEBUT
+
+Ecrire "Entrez un nombre pour vérifier sa parité :"
+Lire nbre
+
+Si nbre % 2 = 0 Alors
+  Ecrire "Ce nombre est pair."
+Sinon
+  Ecrire "Ce nombre est impair."
+Finsi
+
+FIN
