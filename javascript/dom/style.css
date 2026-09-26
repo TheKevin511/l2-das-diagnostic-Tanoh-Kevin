@@ -8,9 +8,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10%;
+    background-color: #FFFFFF;
 }
 
-.conainer{
+
+.conainer , .dom{
     border: 2px solid black;
     padding: 30px;
     border-radius: 10px;
@@ -49,7 +52,7 @@ input:focus{
     outline: 4px solid rgba(0, 0, 0, 0.233);
 }
 
-form button{
+button{
     font-size: 15px;
     font-weight: 800;
     color: white;
