@@ -32,14 +32,17 @@ form{
 input{
     padding: 10px;
     width: 80%;
-    border-radius: 12px;
+    border-radius: 6px;
     border: 1px solid black;
     outline: 4px solid transparent;
     transition: 0.3s;
+    font-weight: 600;
 }
 
 input::placeholder{
     color: black;
+    opacity: 0.5;
+    font-weight: 600;
 }
 
 input:focus{
