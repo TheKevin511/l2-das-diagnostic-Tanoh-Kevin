@@ -1,0 +1,16 @@
+FONCTION Moyenne( {E} n1, n2, n3 : réel) : réel
+
+Var
+moyenne : réel
+
+Début
+
+moyenne = (n1 + n2 + n3)/3
+
+Si moyenne >= 10 Alors
+  Renvoyer "Admis"
+Sinon
+  Renvoyer "Ajourné(e)"
+Finsi
+
+FinFonc

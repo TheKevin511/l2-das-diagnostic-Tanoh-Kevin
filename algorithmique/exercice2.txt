@@ -1,0 +1,18 @@
+ALGORITME sommePremierNombre
+Var
+nbre , somme : entier
+
+DEBUT
+
+Ecrire "Entrez un nombre :"
+Lire nbre
+
+somme = 0
+
+Pour i allant de 1 à nbre faire
+  somme = somme + i
+FinPour
+
+Ecrire "La somme des entiers de 1 à ",nbre, " est : ",somme
+
+FIN
